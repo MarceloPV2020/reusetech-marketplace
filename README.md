@@ -1,25 +1,25 @@
 # ReUseTech
 
-Marketplace simplificado para compra e venda de eletronicos usados.
+Marketplace simplificado para compra e venda de eletrônicos usados.
 
 ## Objetivo
 
-O ReUseTech e um projeto MVP inspirado em plataformas como OLX e Mercado Livre, com foco em uma experiencia enxuta para cadastro de usuarios, listagem de produtos, carrinho simples e fluxo de checkout.
+O ReUseTech é um projeto MVP inspirado em plataformas como OLX e Mercado Livre, com foco em uma experiência enxuta para cadastro de usuários, listagem de produtos, carrinho simples e fluxo de checkout.
 
 ## Stack inicial planejada
 
-- Node.js
-- Express
-- SQLite no desenvolvimento
-- PostgreSQL como evolucao para producao
-- HTML
-- Tailwind CSS via CDN
+* Node.js
+* Express
+* SQLite no desenvolvimento
+* PostgreSQL como evolução para produção
+* HTML
+* Tailwind CSS via CDN
 
-## Documentacao
+## Documentação
 
-- [ADR da arquitetura inicial](docs/adr.md)
-- [Diagramas conceituais](docs/Diagramas.md)
+* [ADR da arquitetura inicial](docs/adr.md)
+* [Diagramas conceituais](docs/Diagramas.md)
 
 ## Mockup inicial
 
-A primeira versao visual da home page esta disponivel no arquivo `index.html`.
+A primeira versão visual da home page está disponível no arquivo `index.html`.
