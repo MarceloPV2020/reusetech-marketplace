@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReUseTech - Eletronicos usados com seguranca</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-900 antialiased">
+    <header class="border-b border-slate-200 bg-white">
+        <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+            <a href="#" class="text-2xl font-bold tracking-tight text-emerald-700">ReUseTech</a>
+
+            <nav class="flex items-center gap-5 text-sm font-medium text-slate-700">
+                <a href="#" class="hover:text-emerald-700">Inicio</a>
+                <a href="#" class="hover:text-emerald-700">Vender</a>
+                <a href="#" class="rounded-md border border-slate-300 px-4 py-2 hover:border-emerald-700 hover:text-emerald-700">Entrar</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="bg-white">
+            <div class="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-6 lg:grid-cols-[1.05fr_0.95fr] lg:px-8 lg:py-20">
+                <div class="flex flex-col justify-center">
+                    <p class="mb-4 text-sm font-semibold uppercase tracking-wide text-emerald-700">Marketplace de eletronicos usados</p>
+                    <h1 class="max-w-3xl text-4xl font-bold tracking-tight text-slate-950 sm:text-5xl lg:text-6xl">
+                        Compre e venda tecnologia usada de um jeito simples.
+                    </h1>
+                    <p class="mt-5 max-w-2xl text-lg leading-8 text-slate-600">
+                        Encontre celulares, notebooks, consoles e acessorios em bom estado, com uma experiencia direta para buscar, negociar e comprar.
+                    </p>
+
+                    <form class="mt-8 flex w-full max-w-2xl flex-col gap-3 sm:flex-row">
+                        <label for="busca" class="sr-only">Pesquisar eletronicos usados</label>
+                        <input
+                            id="busca"
+                            type="search"
+                            placeholder="Busque por iPhone, notebook, console..."
+                            class="min-h-12 flex-1 rounded-md border border-slate-300 bg-white px-4 text-base outline-none ring-emerald-600 transition focus:border-emerald-600 focus:ring-2"
+                        >
+                        <button type="submit" class="min-h-12 rounded-md bg-emerald-700 px-6 font-semibold text-white transition hover:bg-emerald-800">
+                            Buscar produtos
+                        </button>
+                    </form>
+
+                    <div class="mt-4">
+                        <a href="#" class="inline-flex min-h-12 items-center rounded-md border border-slate-300 bg-white px-6 font-semibold text-slate-800 transition hover:border-emerald-700 hover:text-emerald-700">
+                            Anunciar eletronico
+                        </a>
+                    </div>
+                </div>
+
+                <div class="overflow-hidden rounded-lg border border-slate-200 bg-slate-100">
+                    <img
+                        src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1100&q=80"
+                        alt="Mesa com notebook e eletronicos usados"
+                        class="h-full min-h-[320px] w-full object-cover"
+                    >
+                </div>
+            </div>
+        </section>
+
+        <section class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+            <div class="mb-8 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
+                <div>
+                    <h2 class="text-2xl font-bold tracking-tight text-slate-950 sm:text-3xl">Produtos em destaque</h2>
+                    <p class="mt-2 text-slate-600">Eletronicos usados selecionados para comecar seu marketplace.</p>
+                </div>
+                <a href="#" class="text-sm font-semibold text-emerald-700 hover:text-emerald-800">Ver todos</a>
+            </div>
+
+            <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+                <article class="overflow-hidden rounded-lg border border-slate-200 bg-white shadow-sm">
+                    <img
+                        src="https://images.unsplash.com/photo-1603891128711-11b4b03bb138?auto=format&fit=crop&w=800&q=80"
+                        alt="iPhone 12 usado"
+                        class="h-48 w-full object-cover"
+                    >
+                    <div class="p-5">
+                        <h3 class="text-lg font-semibold text-slate-950">iPhone 12 usado</h3>
+                        <p class="mt-2 text-2xl font-bold text-emerald-700">R$ 2.250,00</p>
+                        <p class="mt-1 text-sm text-slate-600">Estado: muito bom</p>
+                        <button class="mt-5 w-full rounded-md bg-slate-950 px-4 py-3 text-sm font-semibold text-white transition hover:bg-emerald-700">
+                            Adicionar ao carrinho
+                        </button>
+                    </div>
+                </article>
+
+                <article class="overflow-hidden rounded-lg border border-slate-200 bg-white shadow-sm">
+                    <img
+                        src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80"
+                        alt="Notebook Dell i5"
+                        class="h-48 w-full object-cover"
+                    >
+                    <div class="p-5">
+                        <h3 class="text-lg font-semibold text-slate-950">Notebook Dell i5</h3>
+                        <p class="mt-2 text-2xl font-bold text-emerald-700">R$ 1.850,00</p>
+                        <p class="mt-1 text-sm text-slate-600">Estado: bom</p>
+                        <button class="mt-5 w-full rounded-md bg-slate-950 px-4 py-3 text-sm font-semibold text-white transition hover:bg-emerald-700">
+                            Adicionar ao carrinho
+                        </button>
+                    </div>
+                </article>
+
+                <article class="overflow-hidden rounded-lg border border-slate-200 bg-white shadow-sm">
+                    <img
+                        src="https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?auto=format&fit=crop&w=800&q=80"
+                        alt="PlayStation 4"
+                        class="h-48 w-full object-cover"
+                    >
+                    <div class="p-5">
+                        <h3 class="text-lg font-semibold text-slate-950">PlayStation 4</h3>
+                        <p class="mt-2 text-2xl font-bold text-emerald-700">R$ 1.400,00</p>
+                        <p class="mt-1 text-sm text-slate-600">Estado: conservado</p>
+                        <button class="mt-5 w-full rounded-md bg-slate-950 px-4 py-3 text-sm font-semibold text-white transition hover:bg-emerald-700">
+                            Adicionar ao carrinho
+                        </button>
+                    </div>
+                </article>
+
+                <article class="overflow-hidden rounded-lg border border-slate-200 bg-white shadow-sm">
+                    <img
+                        src="https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&w=800&q=80"
+                        alt="Samsung Galaxy S21"
+                        class="h-48 w-full object-cover"
+                    >
+                    <div class="p-5">
+                        <h3 class="text-lg font-semibold text-slate-950">Samsung Galaxy S21</h3>
+                        <p class="mt-2 text-2xl font-bold text-emerald-700">R$ 1.950,00</p>
+                        <p class="mt-1 text-sm text-slate-600">Estado: excelente</p>
+                        <button class="mt-5 w-full rounded-md bg-slate-950 px-4 py-3 text-sm font-semibold text-white transition hover:bg-emerald-700">
+                            Adicionar ao carrinho
+                        </button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="border-y border-slate-200 bg-white">
+            <div class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+                <h2 class="text-2xl font-bold tracking-tight text-slate-950 sm:text-3xl">Como funciona</h2>
+
+                <div class="mt-8 grid gap-5 md:grid-cols-3">
+                    <div class="rounded-lg border border-slate-200 p-6">
+                        <span class="flex h-10 w-10 items-center justify-center rounded-full bg-emerald-100 font-bold text-emerald-800">1</span>
+                        <h3 class="mt-5 text-lg font-semibold text-slate-950">Busque</h3>
+                        <p class="mt-2 text-slate-600">Encontre eletronicos usados por categoria, preco ou nome do produto.</p>
+                    </div>
+
+                    <div class="rounded-lg border border-slate-200 p-6">
+                        <span class="flex h-10 w-10 items-center justify-center rounded-full bg-emerald-100 font-bold text-emerald-800">2</span>
+                        <h3 class="mt-5 text-lg font-semibold text-slate-950">Negocie</h3>
+                        <p class="mt-2 text-slate-600">Veja os detalhes do anuncio e avalie as condicoes antes de comprar.</p>
+                    </div>
+
+                    <div class="rounded-lg border border-slate-200 p-6">
+                        <span class="flex h-10 w-10 items-center justify-center rounded-full bg-emerald-100 font-bold text-emerald-800">3</span>
+                        <h3 class="mt-5 text-lg font-semibold text-slate-950">Compre com seguranca</h3>
+                        <p class="mt-2 text-slate-600">Finalize o pedido em um fluxo simples, claro e preparado para evoluir.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-slate-950 text-white">
+        <div class="mx-auto flex max-w-7xl flex-col gap-3 px-4 py-8 text-sm sm:flex-row sm:items-center sm:justify-between sm:px-6 lg:px-8">
+            <p class="font-semibold">ReUseTech</p>
+            <p class="text-slate-300">Marketplace simplificado de eletronicos usados.</p>
+        </div>
+    </footer>
+</body>
+</html>
