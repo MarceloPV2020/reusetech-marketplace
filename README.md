@@ -8,12 +8,11 @@ O ReUseTech é um projeto MVP inspirado em plataformas como OLX e Mercado Livre,
 
 ## Stack inicial planejada
 
-* Node.js
-* Express
-* SQLite no desenvolvimento
-* PostgreSQL como evolução para produção
-* HTML
-* Tailwind CSS via CDN
+- C# e .NET em backend.
+- SQL Server.
+- Dados mockados no front (somente em desenvolvimento)
+- HTML
+- Tailwind CSS.
 
 ## Documentação
 
